@@ -14,6 +14,5 @@ db.on('error',()=>{
 db.on('disconnected',()=>{
     console.log('Disconnected from MongoDB')
 })
-
 // Export the connectDB function
 module.exports = db;
